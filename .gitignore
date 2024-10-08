@@ -5,6 +5,7 @@ dist/
 
 data.json
 main.js
+main.js.map
 
 *.code-workspace
 .DS_Store
@@ -15,3 +16,5 @@ dist-ssr
 
 .yarn/*
 
+
+pnpm-lock.yaml

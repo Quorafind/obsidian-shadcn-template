@@ -1,6 +1,1053 @@
-.DiceRoller__container {
+.custom-next * ,.custom-dialog *, .custom-select *, *:where(.custom-dialog,.custom-select), .custom-next ::before ,.custom-dialog ::before, .custom-select ::before, ::before:where(.custom-dialog,.custom-select), .custom-next ::after ,.custom-dialog ::after, .custom-select ::after, ::after:where(.custom-dialog,.custom-select) {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+.custom-next ::backdrop ,.custom-dialog ::backdrop, .custom-select ::backdrop, ::backdrop:where(.custom-dialog,.custom-select) {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}/*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+.custom-next *:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog *:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select *:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), *:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next ::before:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog ::before:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select ::before:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), ::before:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next ::after:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog ::after:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select ::after:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), ::after:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+.custom-next ::before:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog ::before:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select ::before:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), ::before:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next ::after:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog ::after:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select ::after:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), ::after:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+.custom-next .custom-next:where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog .custom-next:where(:not(.no-custom-next,.no-custom-next *)), .custom-select .custom-next:where(:not(.no-custom-next,.no-custom-next *)), .custom-next:where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next .custom-dialog:where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog .custom-dialog:where(:not(.no-custom-next,.no-custom-next *)), .custom-select .custom-dialog:where(:not(.no-custom-next,.no-custom-next *)), .custom-dialog:where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next .custom-select:where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog .custom-select:where(:not(.no-custom-next,.no-custom-next *)), .custom-select .custom-select:where(:not(.no-custom-next,.no-custom-next *)), .custom-select:where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+.custom-next .custom-next:where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog .custom-next:where(:not(.no-custom-next,.no-custom-next *)), .custom-select .custom-next:where(:not(.no-custom-next,.no-custom-next *)), .custom-next:where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next .custom-dialog:where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog .custom-dialog:where(:not(.no-custom-next,.no-custom-next *)), .custom-select .custom-dialog:where(:not(.no-custom-next,.no-custom-next *)), .custom-dialog:where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next .custom-select:where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog .custom-select:where(:not(.no-custom-next,.no-custom-next *)), .custom-select .custom-select:where(:not(.no-custom-next,.no-custom-next *)), .custom-select:where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+.custom-next hr:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog hr:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select hr:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), hr:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+.custom-next abbr:where([title]):where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog abbr:where([title]):where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select abbr:where([title]):where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), abbr:where([title]):where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+.custom-next h1:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog h1:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select h1:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), h1:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next h2:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog h2:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select h2:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), h2:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next h3:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog h3:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select h3:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), h3:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next h4:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog h4:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select h4:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), h4:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next h5:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog h5:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select h5:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), h5:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next h6:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog h6:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select h6:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), h6:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+.custom-next a:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog a:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select a:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), a:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+.custom-next b:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog b:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select b:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), b:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next strong:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog strong:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select strong:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), strong:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+.custom-next code:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog code:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select code:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), code:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next kbd:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog kbd:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select kbd:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), kbd:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next samp:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog samp:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select samp:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), samp:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next pre:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog pre:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select pre:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), pre:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+.custom-next small:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog small:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select small:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), small:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+.custom-next sub:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog sub:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select sub:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), sub:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next sup:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog sup:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select sup:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), sup:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.custom-next sub:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog sub:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select sub:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), sub:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  bottom: -0.25em;
+}
+
+.custom-next sup:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog sup:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select sup:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), sup:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+.custom-next table:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog table:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select table:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), table:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+.custom-next button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next input:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog input:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select input:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), input:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next optgroup:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog optgroup:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select optgroup:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), optgroup:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next select:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog select:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select select:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), select:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next textarea:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog textarea:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select textarea:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), textarea:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+.custom-next button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next select:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog select:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select select:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), select:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+.custom-next button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next input:where([type='button']):where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog input:where([type='button']):where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select input:where([type='button']):where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), input:where([type='button']):where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next input:where([type='reset']):where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog input:where([type='reset']):where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select input:where([type='reset']):where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), input:where([type='reset']):where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next input:where([type='submit']):where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog input:where([type='submit']):where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select input:where([type='submit']):where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), input:where([type='submit']):where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+.custom-next :-moz-focusring:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog :-moz-focusring:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select :-moz-focusring:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), :-moz-focusring:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+.custom-next :-moz-ui-invalid:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog :-moz-ui-invalid:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select :-moz-ui-invalid:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), :-moz-ui-invalid:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+.custom-next progress:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog progress:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select progress:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), progress:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+.custom-next ::-webkit-inner-spin-button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog ::-webkit-inner-spin-button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select ::-webkit-inner-spin-button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), ::-webkit-inner-spin-button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next ::-webkit-outer-spin-button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog ::-webkit-outer-spin-button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select ::-webkit-outer-spin-button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), ::-webkit-outer-spin-button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+.custom-next [type='search']:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog [type='search']:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select [type='search']:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), [type='search']:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+.custom-next ::-webkit-search-decoration:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog ::-webkit-search-decoration:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select ::-webkit-search-decoration:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), ::-webkit-search-decoration:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+.custom-next ::-webkit-file-upload-button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog ::-webkit-file-upload-button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select ::-webkit-file-upload-button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), ::-webkit-file-upload-button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+.custom-next summary:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog summary:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select summary:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), summary:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+.custom-next blockquote:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog blockquote:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select blockquote:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), blockquote:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next dl:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog dl:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select dl:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), dl:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next dd:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog dd:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select dd:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), dd:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next h1:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog h1:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select h1:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), h1:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next h2:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog h2:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select h2:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), h2:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next h3:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog h3:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select h3:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), h3:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next h4:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog h4:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select h4:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), h4:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next h5:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog h5:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select h5:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), h5:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next h6:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog h6:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select h6:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), h6:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next hr:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog hr:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select hr:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), hr:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next figure:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog figure:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select figure:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), figure:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next p:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog p:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select p:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), p:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next pre:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog pre:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select pre:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), pre:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  margin: 0;
+}
+
+.custom-next fieldset:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog fieldset:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select fieldset:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), fieldset:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  margin: 0;
+  padding: 0;
+}
+
+.custom-next legend:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog legend:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select legend:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), legend:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  padding: 0;
+}
+
+.custom-next ol:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog ol:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select ol:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), ol:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next ul:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog ul:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select ul:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), ul:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next menu:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog menu:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select menu:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), menu:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+.custom-next dialog:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog dialog:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select dialog:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), dialog:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+.custom-next textarea:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog textarea:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select textarea:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), textarea:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+.custom-next input::-moz-placeholder:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-dialog input::-moz-placeholder:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select input::-moz-placeholder:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), input::-moz-placeholder:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select), .custom-next textarea::-moz-placeholder:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-dialog textarea::-moz-placeholder:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select textarea::-moz-placeholder:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), textarea::-moz-placeholder:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+.custom-next input::placeholder:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog input::placeholder:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select input::placeholder:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), input::placeholder:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next textarea::placeholder:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog textarea::placeholder:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select textarea::placeholder:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), textarea::placeholder:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+.custom-next button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), button:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next [role="button"]:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog [role="button"]:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select [role="button"]:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), [role="button"]:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+.custom-next :disabled:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog :disabled:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select :disabled:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), :disabled:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+.custom-next img:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog img:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select img:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), img:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next svg:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog svg:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select svg:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), svg:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next video:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog video:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select video:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), video:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next canvas:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog canvas:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select canvas:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), canvas:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next audio:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog audio:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select audio:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), audio:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next iframe:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog iframe:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select iframe:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), iframe:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next embed:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog embed:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select embed:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), embed:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next object:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog object:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select object:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), object:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+.custom-next img:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog img:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select img:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), img:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select),.custom-next video:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog video:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select video:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), video:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+.custom-next [hidden]:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)) ,.custom-dialog [hidden]:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), .custom-select [hidden]:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)), [hidden]:where(.custom-next,.custom-next *,.custom-dialog,.custom-dialog *,.custom-select,.custom-select *):where(:not(.no-custom-next,.no-custom-next *)):where(.custom-dialog,.custom-select) {
+  display: none;
+}
+    .custom-next * ,.custom-dialog *, .custom-select *, *:where(.custom-dialog,.custom-select) {
+        --background: 0 0% 100%;
+        --foreground: 0 0% 3.9%;
+        --card: 0 0% 100%;
+        --card-foreground: 0 0% 3.9%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 0 0% 3.9%;
+        --primary: 0 0% 9%;
+        --primary-foreground: 0 0% 98%;
+        --secondary: 0 0% 96.1%;
+        --secondary-foreground: 0 0% 9%;
+        --muted: 0 0% 96.1%;
+        --muted-foreground: 0 0% 45.1%;
+        --accent: 0 0% 96.1%;
+        --accent-foreground: 0 0% 9%;
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 0 0% 89.8%;
+        --input: 0 0% 89.8%;
+        --ring: 0 0% 3.9%;
+        --chart-1: 12 76% 61%;
+        --chart-2: 173 58% 39%;
+        --chart-3: 197 37% 24%;
+        --chart-4: 43 74% 66%;
+        --chart-5: 27 87% 67%;
+        --radius: 0.5rem
+    }
+    .custom-next main ,.custom-dialog main, .custom-select main, main:where(.custom-dialog,.custom-select) {
+  height: 100%;
+  width: 100%;
+}
+
+    .custom-next * ,.custom-dialog *, .custom-select *, *:where(.custom-dialog,.custom-select) {
+  border-color: hsl(var(--border));
+}
+.custom-next .container ,.custom-dialog .container, .custom-select .container, .container:where(.custom-dialog,.custom-select) {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+@container (min-width: 1400px) {
+
+  .custom-next .container ,.custom-dialog .container, .custom-select .container, .container:where(.custom-dialog,.custom-select) {
+    max-width: 1400px;
+  }
+}
+.custom-next .sr-only ,.custom-dialog .sr-only, .custom-select .sr-only, .sr-only:where(.custom-dialog,.custom-select) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+.custom-next .fixed ,.custom-dialog .fixed, .custom-select .fixed, .fixed:where(.custom-dialog,.custom-select) {
+  position: fixed;
+}
+.custom-next .absolute ,.custom-dialog .absolute, .custom-select .absolute, .absolute:where(.custom-dialog,.custom-select) {
+  position: absolute;
+}
+.custom-next .inset-0 ,.custom-dialog .inset-0, .custom-select .inset-0, .inset-0:where(.custom-dialog,.custom-select) {
+  inset: 0px;
+}
+.custom-next .left-\[50\%\] ,.custom-dialog .left-\[50\%\], .custom-select .left-\[50\%\], .left-\[50\%\]:where(.custom-dialog,.custom-select) {
+  left: 50%;
+}
+.custom-next .right-4 ,.custom-dialog .right-4, .custom-select .right-4, .right-4:where(.custom-dialog,.custom-select) {
+  right: 1rem;
+}
+.custom-next .top-4 ,.custom-dialog .top-4, .custom-select .top-4, .top-4:where(.custom-dialog,.custom-select) {
+  top: 1rem;
+}
+.custom-next .top-\[50\%\] ,.custom-dialog .top-\[50\%\], .custom-select .top-\[50\%\], .top-\[50\%\]:where(.custom-dialog,.custom-select) {
+  top: 50%;
+}
+.custom-next .z-50 ,.custom-dialog .z-50, .custom-select .z-50, .z-50:where(.custom-dialog,.custom-select) {
+  z-index: 50;
+}
+.custom-next .flex ,.custom-dialog .flex, .custom-select .flex, .flex:where(.custom-dialog,.custom-select) {
   display: flex;
 }
-.DiceRoller__container input {
-  width: 60px;
+.custom-next .inline-flex ,.custom-dialog .inline-flex, .custom-select .inline-flex, .inline-flex:where(.custom-dialog,.custom-select) {
+  display: inline-flex;
+}
+.custom-next .grid ,.custom-dialog .grid, .custom-select .grid, .grid:where(.custom-dialog,.custom-select) {
+  display: grid;
+}
+.custom-next .h-10 ,.custom-dialog .h-10, .custom-select .h-10, .h-10:where(.custom-dialog,.custom-select) {
+  height: 2.5rem;
+}
+.custom-next .h-4 ,.custom-dialog .h-4, .custom-select .h-4, .h-4:where(.custom-dialog,.custom-select) {
+  height: 1rem;
+}
+.custom-next .h-8 ,.custom-dialog .h-8, .custom-select .h-8, .h-8:where(.custom-dialog,.custom-select) {
+  height: 2rem;
+}
+.custom-next .h-9 ,.custom-dialog .h-9, .custom-select .h-9, .h-9:where(.custom-dialog,.custom-select) {
+  height: 2.25rem;
+}
+.custom-next .h-full ,.custom-dialog .h-full, .custom-select .h-full, .h-full:where(.custom-dialog,.custom-select) {
+  height: 100%;
+}
+.custom-next .w-4 ,.custom-dialog .w-4, .custom-select .w-4, .w-4:where(.custom-dialog,.custom-select) {
+  width: 1rem;
+}
+.custom-next .w-9 ,.custom-dialog .w-9, .custom-select .w-9, .w-9:where(.custom-dialog,.custom-select) {
+  width: 2.25rem;
+}
+.custom-next .w-full ,.custom-dialog .w-full, .custom-select .w-full, .w-full:where(.custom-dialog,.custom-select) {
+  width: 100%;
+}
+.custom-next .max-w-lg ,.custom-dialog .max-w-lg, .custom-select .max-w-lg, .max-w-lg:where(.custom-dialog,.custom-select) {
+  max-width: 32rem;
+}
+.custom-next .flex-1 ,.custom-dialog .flex-1, .custom-select .flex-1, .flex-1:where(.custom-dialog,.custom-select) {
+  flex: 1 1 0%;
+}
+.custom-next .translate-x-\[-50\%\] ,.custom-dialog .translate-x-\[-50\%\], .custom-select .translate-x-\[-50\%\], .translate-x-\[-50\%\]:where(.custom-dialog,.custom-select) {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.custom-next .translate-y-\[-50\%\] ,.custom-dialog .translate-y-\[-50\%\], .custom-select .translate-y-\[-50\%\], .translate-y-\[-50\%\]:where(.custom-dialog,.custom-select) {
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.custom-next .flex-row ,.custom-dialog .flex-row, .custom-select .flex-row, .flex-row:where(.custom-dialog,.custom-select) {
+  flex-direction: row;
+}
+.custom-next .flex-col ,.custom-dialog .flex-col, .custom-select .flex-col, .flex-col:where(.custom-dialog,.custom-select) {
+  flex-direction: column;
+}
+.custom-next .flex-col-reverse ,.custom-dialog .flex-col-reverse, .custom-select .flex-col-reverse, .flex-col-reverse:where(.custom-dialog,.custom-select) {
+  flex-direction: column-reverse;
+}
+.custom-next .items-center ,.custom-dialog .items-center, .custom-select .items-center, .items-center:where(.custom-dialog,.custom-select) {
+  align-items: center;
+}
+.custom-next .justify-center ,.custom-dialog .justify-center, .custom-select .justify-center, .justify-center:where(.custom-dialog,.custom-select) {
+  justify-content: center;
+}
+.custom-next .gap-1 ,.custom-dialog .gap-1, .custom-select .gap-1, .gap-1:where(.custom-dialog,.custom-select) {
+  gap: 0.25rem;
+}
+.custom-next .gap-2 ,.custom-dialog .gap-2, .custom-select .gap-2, .gap-2:where(.custom-dialog,.custom-select) {
+  gap: 0.5rem;
+}
+.custom-next .gap-4 ,.custom-dialog .gap-4, .custom-select .gap-4, .gap-4:where(.custom-dialog,.custom-select) {
+  gap: 1rem;
+}
+.custom-next .space-y-1\.5 > :not([hidden]) ~ :not([hidden]) ,.custom-dialog .space-y-1\.5 > :not([hidden]) ~ :not([hidden]), .custom-select .space-y-1\.5 > :not([hidden]) ~ :not([hidden]), .space-y-1\.5 > :not([hidden]) ~ :not([hidden]):where(.custom-dialog,.custom-select) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.375rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.375rem * var(--tw-space-y-reverse));
+}
+.custom-next .whitespace-nowrap ,.custom-dialog .whitespace-nowrap, .custom-select .whitespace-nowrap, .whitespace-nowrap:where(.custom-dialog,.custom-select) {
+  white-space: nowrap;
+}
+.custom-next .rounded-lg ,.custom-dialog .rounded-lg, .custom-select .rounded-lg, .rounded-lg:where(.custom-dialog,.custom-select) {
+  border-radius: var(--radius);
+}
+.custom-next .rounded-md ,.custom-dialog .rounded-md, .custom-select .rounded-md, .rounded-md:where(.custom-dialog,.custom-select) {
+  border-radius: calc(var(--radius) - 2px);
+}
+.custom-next .rounded-sm ,.custom-dialog .rounded-sm, .custom-select .rounded-sm, .rounded-sm:where(.custom-dialog,.custom-select) {
+  border-radius: calc(var(--radius) - 4px);
+}
+.custom-next .border ,.custom-dialog .border, .custom-select .border, .border:where(.custom-dialog,.custom-select) {
+  border-width: 1px;
+}
+.custom-next .border-input ,.custom-dialog .border-input, .custom-select .border-input, .border-input:where(.custom-dialog,.custom-select) {
+  border-color: hsl(var(--input));
+}
+.custom-next .bg-background ,.custom-dialog .bg-background, .custom-select .bg-background, .bg-background:where(.custom-dialog,.custom-select) {
+  background-color: hsl(var(--background));
+}
+.custom-next .bg-black\/80 ,.custom-dialog .bg-black\/80, .custom-select .bg-black\/80, .bg-black\/80:where(.custom-dialog,.custom-select) {
+  background-color: rgb(0 0 0 / 0.8);
+}
+.custom-next .bg-destructive ,.custom-dialog .bg-destructive, .custom-select .bg-destructive, .bg-destructive:where(.custom-dialog,.custom-select) {
+  background-color: hsl(var(--destructive));
+}
+.custom-next .bg-primary ,.custom-dialog .bg-primary, .custom-select .bg-primary, .bg-primary:where(.custom-dialog,.custom-select) {
+  background-color: hsl(var(--primary));
+}
+.custom-next .bg-secondary ,.custom-dialog .bg-secondary, .custom-select .bg-secondary, .bg-secondary:where(.custom-dialog,.custom-select) {
+  background-color: hsl(var(--secondary));
+}
+.custom-next .p-4 ,.custom-dialog .p-4, .custom-select .p-4, .p-4:where(.custom-dialog,.custom-select) {
+  padding: 1rem;
+}
+.custom-next .p-6 ,.custom-dialog .p-6, .custom-select .p-6, .p-6:where(.custom-dialog,.custom-select) {
+  padding: 1.5rem;
+}
+.custom-next .px-3 ,.custom-dialog .px-3, .custom-select .px-3, .px-3:where(.custom-dialog,.custom-select) {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+.custom-next .px-4 ,.custom-dialog .px-4, .custom-select .px-4, .px-4:where(.custom-dialog,.custom-select) {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.custom-next .px-8 ,.custom-dialog .px-8, .custom-select .px-8, .px-8:where(.custom-dialog,.custom-select) {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.custom-next .py-2 ,.custom-dialog .py-2, .custom-select .py-2, .py-2:where(.custom-dialog,.custom-select) {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.custom-next .text-center ,.custom-dialog .text-center, .custom-select .text-center, .text-center:where(.custom-dialog,.custom-select) {
+  text-align: center;
+}
+.custom-next .text-2xl ,.custom-dialog .text-2xl, .custom-select .text-2xl, .text-2xl:where(.custom-dialog,.custom-select) {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.custom-next .text-lg ,.custom-dialog .text-lg, .custom-select .text-lg, .text-lg:where(.custom-dialog,.custom-select) {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.custom-next .text-sm ,.custom-dialog .text-sm, .custom-select .text-sm, .text-sm:where(.custom-dialog,.custom-select) {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.custom-next .text-xs ,.custom-dialog .text-xs, .custom-select .text-xs, .text-xs:where(.custom-dialog,.custom-select) {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.custom-next .font-bold ,.custom-dialog .font-bold, .custom-select .font-bold, .font-bold:where(.custom-dialog,.custom-select) {
+  font-weight: 700;
+}
+.custom-next .font-medium ,.custom-dialog .font-medium, .custom-select .font-medium, .font-medium:where(.custom-dialog,.custom-select) {
+  font-weight: 500;
+}
+.custom-next .font-semibold ,.custom-dialog .font-semibold, .custom-select .font-semibold, .font-semibold:where(.custom-dialog,.custom-select) {
+  font-weight: 600;
+}
+.custom-next .leading-none ,.custom-dialog .leading-none, .custom-select .leading-none, .leading-none:where(.custom-dialog,.custom-select) {
+  line-height: 1;
+}
+.custom-next .tracking-tight ,.custom-dialog .tracking-tight, .custom-select .tracking-tight, .tracking-tight:where(.custom-dialog,.custom-select) {
+  letter-spacing: -0.025em;
+}
+.custom-next .text-destructive-foreground ,.custom-dialog .text-destructive-foreground, .custom-select .text-destructive-foreground, .text-destructive-foreground:where(.custom-dialog,.custom-select) {
+  color: hsl(var(--destructive-foreground));
+}
+.custom-next .text-muted-foreground ,.custom-dialog .text-muted-foreground, .custom-select .text-muted-foreground, .text-muted-foreground:where(.custom-dialog,.custom-select) {
+  color: hsl(var(--muted-foreground));
+}
+.custom-next .text-primary ,.custom-dialog .text-primary, .custom-select .text-primary, .text-primary:where(.custom-dialog,.custom-select) {
+  color: hsl(var(--primary));
+}
+.custom-next .text-primary-foreground ,.custom-dialog .text-primary-foreground, .custom-select .text-primary-foreground, .text-primary-foreground:where(.custom-dialog,.custom-select) {
+  color: hsl(var(--primary-foreground));
+}
+.custom-next .text-secondary-foreground ,.custom-dialog .text-secondary-foreground, .custom-select .text-secondary-foreground, .text-secondary-foreground:where(.custom-dialog,.custom-select) {
+  color: hsl(var(--secondary-foreground));
+}
+.custom-next .underline-offset-4 ,.custom-dialog .underline-offset-4, .custom-select .underline-offset-4, .underline-offset-4:where(.custom-dialog,.custom-select) {
+  text-underline-offset: 4px;
+}
+.custom-next .opacity-70 ,.custom-dialog .opacity-70, .custom-select .opacity-70, .opacity-70:where(.custom-dialog,.custom-select) {
+  opacity: 0.7;
+}
+.custom-next .shadow ,.custom-dialog .shadow, .custom-select .shadow, .shadow:where(.custom-dialog,.custom-select) {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.custom-next .shadow-lg ,.custom-dialog .shadow-lg, .custom-select .shadow-lg, .shadow-lg:where(.custom-dialog,.custom-select) {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.custom-next .shadow-none ,.custom-dialog .shadow-none, .custom-select .shadow-none, .shadow-none:where(.custom-dialog,.custom-select) {
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.custom-next .shadow-sm ,.custom-dialog .shadow-sm, .custom-select .shadow-sm, .shadow-sm:where(.custom-dialog,.custom-select) {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.custom-next .outline ,.custom-dialog .outline, .custom-select .outline, .outline:where(.custom-dialog,.custom-select) {
+  outline-style: solid;
+}
+.custom-next .ring-offset-background ,.custom-dialog .ring-offset-background, .custom-select .ring-offset-background, .ring-offset-background:where(.custom-dialog,.custom-select) {
+  --tw-ring-offset-color: hsl(var(--background));
+}
+.custom-next .transition-colors ,.custom-dialog .transition-colors, .custom-select .transition-colors, .transition-colors:where(.custom-dialog,.custom-select) {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.custom-next .transition-opacity ,.custom-dialog .transition-opacity, .custom-select .transition-opacity, .transition-opacity:where(.custom-dialog,.custom-select) {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.custom-next .duration-200 ,.custom-dialog .duration-200, .custom-select .duration-200, .duration-200:where(.custom-dialog,.custom-select) {
+  transition-duration: 200ms;
+}
+@keyframes enter {
+
+  from {
+    opacity: var(--tw-enter-opacity, 1);
+    transform: translate3d(var(--tw-enter-translate-x, 0), var(--tw-enter-translate-y, 0), 0) scale3d(var(--tw-enter-scale, 1), var(--tw-enter-scale, 1), var(--tw-enter-scale, 1)) rotate(var(--tw-enter-rotate, 0));
+  }
+}
+@keyframes exit {
+
+  to {
+    opacity: var(--tw-exit-opacity, 1);
+    transform: translate3d(var(--tw-exit-translate-x, 0), var(--tw-exit-translate-y, 0), 0) scale3d(var(--tw-exit-scale, 1), var(--tw-exit-scale, 1), var(--tw-exit-scale, 1)) rotate(var(--tw-exit-rotate, 0));
+  }
+}
+.custom-next .duration-200 ,.custom-dialog .duration-200, .custom-select .duration-200, .duration-200:where(.custom-dialog,.custom-select) {
+  animation-duration: 200ms;
+}
+.custom-next .\@container ,.custom-dialog .\@container, .custom-select .\@container, .\@container:where(.custom-dialog,.custom-select) {
+  container-type: inline-size;
+}
+
+.theme-dark :is(.custom-dialog,.custom-select, .custom-next) {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+    --radius: 0.5rem;
+}
+
+.custom-next .hover\:bg-accent:hover ,.custom-dialog .hover\:bg-accent:hover, .custom-select .hover\:bg-accent:hover, .hover\:bg-accent:hover:where(.custom-dialog,.custom-select) {
+  background-color: hsl(var(--accent));
+}
+
+.custom-next .hover\:bg-destructive\/90:hover ,.custom-dialog .hover\:bg-destructive\/90:hover, .custom-select .hover\:bg-destructive\/90:hover, .hover\:bg-destructive\/90:hover:where(.custom-dialog,.custom-select) {
+  background-color: hsl(var(--destructive) / 0.9);
+}
+
+.custom-next .hover\:bg-primary\/90:hover ,.custom-dialog .hover\:bg-primary\/90:hover, .custom-select .hover\:bg-primary\/90:hover, .hover\:bg-primary\/90:hover:where(.custom-dialog,.custom-select) {
+  background-color: hsl(var(--primary) / 0.9);
+}
+
+.custom-next .hover\:bg-secondary\/80:hover ,.custom-dialog .hover\:bg-secondary\/80:hover, .custom-select .hover\:bg-secondary\/80:hover, .hover\:bg-secondary\/80:hover:where(.custom-dialog,.custom-select) {
+  background-color: hsl(var(--secondary) / 0.8);
+}
+
+.custom-next .hover\:text-accent-foreground:hover ,.custom-dialog .hover\:text-accent-foreground:hover, .custom-select .hover\:text-accent-foreground:hover, .hover\:text-accent-foreground:hover:where(.custom-dialog,.custom-select) {
+  color: hsl(var(--accent-foreground));
+}
+
+.custom-next .hover\:underline:hover ,.custom-dialog .hover\:underline:hover, .custom-select .hover\:underline:hover, .hover\:underline:hover:where(.custom-dialog,.custom-select) {
+  text-decoration-line: underline;
+}
+
+.custom-next .hover\:opacity-100:hover ,.custom-dialog .hover\:opacity-100:hover, .custom-select .hover\:opacity-100:hover, .hover\:opacity-100:hover:where(.custom-dialog,.custom-select) {
+  opacity: 1;
+}
+
+.custom-next .focus\:outline-none:focus ,.custom-dialog .focus\:outline-none:focus, .custom-select .focus\:outline-none:focus, .focus\:outline-none:focus:where(.custom-dialog,.custom-select) {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.custom-next .focus\:ring-2:focus ,.custom-dialog .focus\:ring-2:focus, .custom-select .focus\:ring-2:focus, .focus\:ring-2:focus:where(.custom-dialog,.custom-select) {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.custom-next .focus\:ring-ring:focus ,.custom-dialog .focus\:ring-ring:focus, .custom-select .focus\:ring-ring:focus, .focus\:ring-ring:focus:where(.custom-dialog,.custom-select) {
+  --tw-ring-color: hsl(var(--ring));
+}
+
+.custom-next .focus\:ring-offset-2:focus ,.custom-dialog .focus\:ring-offset-2:focus, .custom-select .focus\:ring-offset-2:focus, .focus\:ring-offset-2:focus:where(.custom-dialog,.custom-select) {
+  --tw-ring-offset-width: 2px;
+}
+
+.custom-next .focus-visible\:outline-none:focus-visible ,.custom-dialog .focus-visible\:outline-none:focus-visible, .custom-select .focus-visible\:outline-none:focus-visible, .focus-visible\:outline-none:focus-visible:where(.custom-dialog,.custom-select) {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.custom-next .focus-visible\:ring-1:focus-visible ,.custom-dialog .focus-visible\:ring-1:focus-visible, .custom-select .focus-visible\:ring-1:focus-visible, .focus-visible\:ring-1:focus-visible:where(.custom-dialog,.custom-select) {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.custom-next .focus-visible\:ring-ring:focus-visible ,.custom-dialog .focus-visible\:ring-ring:focus-visible, .custom-select .focus-visible\:ring-ring:focus-visible, .focus-visible\:ring-ring:focus-visible:where(.custom-dialog,.custom-select) {
+  --tw-ring-color: hsl(var(--ring));
+}
+
+.custom-next .disabled\:pointer-events-none:disabled ,.custom-dialog .disabled\:pointer-events-none:disabled, .custom-select .disabled\:pointer-events-none:disabled, .disabled\:pointer-events-none:disabled:where(.custom-dialog,.custom-select) {
+  pointer-events: none;
+}
+
+.custom-next .disabled\:opacity-50:disabled ,.custom-dialog .disabled\:opacity-50:disabled, .custom-select .disabled\:opacity-50:disabled, .disabled\:opacity-50:disabled:where(.custom-dialog,.custom-select) {
+  opacity: 0.5;
+}
+
+.custom-next .group.toaster .group-\[\.toaster\]\:border-border ,.custom-dialog .group.toaster .group-\[\.toaster\]\:border-border, .custom-select .group.toaster .group-\[\.toaster\]\:border-border, .group.toaster .group-\[\.toaster\]\:border-border:where(.custom-dialog,.custom-select) {
+  border-color: hsl(var(--border));
+}
+
+.custom-next .group.toast .group-\[\.toast\]\:bg-muted ,.custom-dialog .group.toast .group-\[\.toast\]\:bg-muted, .custom-select .group.toast .group-\[\.toast\]\:bg-muted, .group.toast .group-\[\.toast\]\:bg-muted:where(.custom-dialog,.custom-select) {
+  background-color: hsl(var(--muted));
+}
+
+.custom-next .group.toast .group-\[\.toast\]\:bg-primary ,.custom-dialog .group.toast .group-\[\.toast\]\:bg-primary, .custom-select .group.toast .group-\[\.toast\]\:bg-primary, .group.toast .group-\[\.toast\]\:bg-primary:where(.custom-dialog,.custom-select) {
+  background-color: hsl(var(--primary));
+}
+
+.custom-next .group.toaster .group-\[\.toaster\]\:bg-background ,.custom-dialog .group.toaster .group-\[\.toaster\]\:bg-background, .custom-select .group.toaster .group-\[\.toaster\]\:bg-background, .group.toaster .group-\[\.toaster\]\:bg-background:where(.custom-dialog,.custom-select) {
+  background-color: hsl(var(--background));
+}
+
+.custom-next .group.toast .group-\[\.toast\]\:text-muted-foreground ,.custom-dialog .group.toast .group-\[\.toast\]\:text-muted-foreground, .custom-select .group.toast .group-\[\.toast\]\:text-muted-foreground, .group.toast .group-\[\.toast\]\:text-muted-foreground:where(.custom-dialog,.custom-select) {
+  color: hsl(var(--muted-foreground));
+}
+
+.custom-next .group.toast .group-\[\.toast\]\:text-primary-foreground ,.custom-dialog .group.toast .group-\[\.toast\]\:text-primary-foreground, .custom-select .group.toast .group-\[\.toast\]\:text-primary-foreground, .group.toast .group-\[\.toast\]\:text-primary-foreground:where(.custom-dialog,.custom-select) {
+  color: hsl(var(--primary-foreground));
+}
+
+.custom-next .group.toaster .group-\[\.toaster\]\:text-foreground ,.custom-dialog .group.toaster .group-\[\.toaster\]\:text-foreground, .custom-select .group.toaster .group-\[\.toaster\]\:text-foreground, .group.toaster .group-\[\.toaster\]\:text-foreground:where(.custom-dialog,.custom-select) {
+  color: hsl(var(--foreground));
+}
+
+.custom-next .group.toaster .group-\[\.toaster\]\:shadow-lg ,.custom-dialog .group.toaster .group-\[\.toaster\]\:shadow-lg, .custom-select .group.toaster .group-\[\.toaster\]\:shadow-lg, .group.toaster .group-\[\.toaster\]\:shadow-lg:where(.custom-dialog,.custom-select) {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.custom-next .data-\[state\=open\]\:bg-accent[data-state="open"] ,.custom-dialog .data-\[state\=open\]\:bg-accent[data-state="open"], .custom-select .data-\[state\=open\]\:bg-accent[data-state="open"], .data-\[state\=open\]\:bg-accent[data-state="open"]:where(.custom-dialog,.custom-select) {
+  background-color: hsl(var(--accent));
+}
+
+.custom-next .data-\[state\=open\]\:text-muted-foreground[data-state="open"] ,.custom-dialog .data-\[state\=open\]\:text-muted-foreground[data-state="open"], .custom-select .data-\[state\=open\]\:text-muted-foreground[data-state="open"], .data-\[state\=open\]\:text-muted-foreground[data-state="open"]:where(.custom-dialog,.custom-select) {
+  color: hsl(var(--muted-foreground));
+}
+
+.custom-next .data-\[state\=open\]\:animate-in[data-state="open"] ,.custom-dialog .data-\[state\=open\]\:animate-in[data-state="open"], .custom-select .data-\[state\=open\]\:animate-in[data-state="open"], .data-\[state\=open\]\:animate-in[data-state="open"]:where(.custom-dialog,.custom-select) {
+  animation-name: enter;
+  animation-duration: 150ms;
+  --tw-enter-opacity: initial;
+  --tw-enter-scale: initial;
+  --tw-enter-rotate: initial;
+  --tw-enter-translate-x: initial;
+  --tw-enter-translate-y: initial;
+}
+
+.custom-next .data-\[state\=closed\]\:animate-out[data-state="closed"] ,.custom-dialog .data-\[state\=closed\]\:animate-out[data-state="closed"], .custom-select .data-\[state\=closed\]\:animate-out[data-state="closed"], .data-\[state\=closed\]\:animate-out[data-state="closed"]:where(.custom-dialog,.custom-select) {
+  animation-name: exit;
+  animation-duration: 150ms;
+  --tw-exit-opacity: initial;
+  --tw-exit-scale: initial;
+  --tw-exit-rotate: initial;
+  --tw-exit-translate-x: initial;
+  --tw-exit-translate-y: initial;
+}
+
+.custom-next .data-\[state\=closed\]\:fade-out-0[data-state="closed"] ,.custom-dialog .data-\[state\=closed\]\:fade-out-0[data-state="closed"], .custom-select .data-\[state\=closed\]\:fade-out-0[data-state="closed"], .data-\[state\=closed\]\:fade-out-0[data-state="closed"]:where(.custom-dialog,.custom-select) {
+  --tw-exit-opacity: 0;
+}
+
+.custom-next .data-\[state\=open\]\:fade-in-0[data-state="open"] ,.custom-dialog .data-\[state\=open\]\:fade-in-0[data-state="open"], .custom-select .data-\[state\=open\]\:fade-in-0[data-state="open"], .data-\[state\=open\]\:fade-in-0[data-state="open"]:where(.custom-dialog,.custom-select) {
+  --tw-enter-opacity: 0;
+}
+
+.custom-next .data-\[state\=closed\]\:zoom-out-95[data-state="closed"] ,.custom-dialog .data-\[state\=closed\]\:zoom-out-95[data-state="closed"], .custom-select .data-\[state\=closed\]\:zoom-out-95[data-state="closed"], .data-\[state\=closed\]\:zoom-out-95[data-state="closed"]:where(.custom-dialog,.custom-select) {
+  --tw-exit-scale: .95;
+}
+
+.custom-next .data-\[state\=open\]\:zoom-in-95[data-state="open"] ,.custom-dialog .data-\[state\=open\]\:zoom-in-95[data-state="open"], .custom-select .data-\[state\=open\]\:zoom-in-95[data-state="open"], .data-\[state\=open\]\:zoom-in-95[data-state="open"]:where(.custom-dialog,.custom-select) {
+  --tw-enter-scale: .95;
+}
+
+.custom-next .data-\[state\=closed\]\:slide-out-to-left-1\/2[data-state="closed"] ,.custom-dialog .data-\[state\=closed\]\:slide-out-to-left-1\/2[data-state="closed"], .custom-select .data-\[state\=closed\]\:slide-out-to-left-1\/2[data-state="closed"], .data-\[state\=closed\]\:slide-out-to-left-1\/2[data-state="closed"]:where(.custom-dialog,.custom-select) {
+  --tw-exit-translate-x: -50%;
+}
+
+.custom-next .data-\[state\=closed\]\:slide-out-to-top-\[48\%\][data-state="closed"] ,.custom-dialog .data-\[state\=closed\]\:slide-out-to-top-\[48\%\][data-state="closed"], .custom-select .data-\[state\=closed\]\:slide-out-to-top-\[48\%\][data-state="closed"], .data-\[state\=closed\]\:slide-out-to-top-\[48\%\][data-state="closed"]:where(.custom-dialog,.custom-select) {
+  --tw-exit-translate-y: -48%;
+}
+
+.custom-next .data-\[state\=open\]\:slide-in-from-left-1\/2[data-state="open"] ,.custom-dialog .data-\[state\=open\]\:slide-in-from-left-1\/2[data-state="open"], .custom-select .data-\[state\=open\]\:slide-in-from-left-1\/2[data-state="open"], .data-\[state\=open\]\:slide-in-from-left-1\/2[data-state="open"]:where(.custom-dialog,.custom-select) {
+  --tw-enter-translate-x: -50%;
+}
+
+.custom-next .data-\[state\=open\]\:slide-in-from-top-\[48\%\][data-state="open"] ,.custom-dialog .data-\[state\=open\]\:slide-in-from-top-\[48\%\][data-state="open"], .custom-select .data-\[state\=open\]\:slide-in-from-top-\[48\%\][data-state="open"], .data-\[state\=open\]\:slide-in-from-top-\[48\%\][data-state="open"]:where(.custom-dialog,.custom-select) {
+  --tw-enter-translate-y: -48%;
+}
+
+@container (min-width: 24rem) {
+
+  .custom-next .sm\:flex-row ,.custom-dialog .sm\:flex-row, .custom-select .sm\:flex-row, .sm\:flex-row:where(.custom-dialog,.custom-select) {
+    flex-direction: row;
+  }
+
+  .custom-next .sm\:justify-end ,.custom-dialog .sm\:justify-end, .custom-select .sm\:justify-end, .sm\:justify-end:where(.custom-dialog,.custom-select) {
+    justify-content: flex-end;
+  }
+
+  .custom-next .sm\:space-x-2 > :not([hidden]) ~ :not([hidden]) ,.custom-dialog .sm\:space-x-2 > :not([hidden]) ~ :not([hidden]), .custom-select .sm\:space-x-2 > :not([hidden]) ~ :not([hidden]), .sm\:space-x-2 > :not([hidden]) ~ :not([hidden]):where(.custom-dialog,.custom-select) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .custom-next .sm\:rounded-lg ,.custom-dialog .sm\:rounded-lg, .custom-select .sm\:rounded-lg, .sm\:rounded-lg:where(.custom-dialog,.custom-select) {
+    border-radius: var(--radius);
+  }
+
+  .custom-next .sm\:bg-green-800 ,.custom-dialog .sm\:bg-green-800, .custom-select .sm\:bg-green-800, .sm\:bg-green-800:where(.custom-dialog,.custom-select) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(22 101 52 / var(--tw-bg-opacity));
+  }
+
+  .custom-next .sm\:text-left ,.custom-dialog .sm\:text-left, .custom-select .sm\:text-left, .sm\:text-left:where(.custom-dialog,.custom-select) {
+    text-align: left;
+  }
+}
+
+@container (min-width: 32rem) {
+
+  .custom-next .lg\:gap-6 ,.custom-dialog .lg\:gap-6, .custom-select .lg\:gap-6, .lg\:gap-6:where(.custom-dialog,.custom-select) {
+    gap: 1.5rem;
+  }
+
+  .custom-next .lg\:p-6 ,.custom-dialog .lg\:p-6, .custom-select .lg\:p-6, .lg\:p-6:where(.custom-dialog,.custom-select) {
+    padding: 1.5rem;
+  }
+}
+
+@container (min-width: 36rem) {
+
+  .custom-next .xl\:bg-red-800 ,.custom-dialog .xl\:bg-red-800, .custom-select .xl\:bg-red-800, .xl\:bg-red-800:where(.custom-dialog,.custom-select) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+  }
+}
+
+@container (min-width: 48rem) {
+
+  .custom-next .\33xl\:bg-blue-800 ,.custom-dialog .\33xl\:bg-blue-800, .custom-select .\33xl\:bg-blue-800, .\33xl\:bg-blue-800:where(.custom-dialog,.custom-select) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+  }
+}
+
+@container (min-width: 24rem) {
+
+  .custom-next .dark\:sm\:bg-green-500:where(.theme-dark, .theme-dark *) ,.custom-dialog .dark\:sm\:bg-green-500:where(.theme-dark, .theme-dark *), .custom-select .dark\:sm\:bg-green-500:where(.theme-dark, .theme-dark *), .dark\:sm\:bg-green-500:where(.theme-dark, .theme-dark *):where(.custom-dialog,.custom-select) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+  }
+}
+
+@container (min-width: 36rem) {
+
+  .custom-next .dark\:xl\:bg-red-500:where(.theme-dark, .theme-dark *) ,.custom-dialog .dark\:xl\:bg-red-500:where(.theme-dark, .theme-dark *), .custom-select .dark\:xl\:bg-red-500:where(.theme-dark, .theme-dark *), .dark\:xl\:bg-red-500:where(.theme-dark, .theme-dark *):where(.custom-dialog,.custom-select) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  }
+}
+
+@container (min-width: 48rem) {
+
+  .custom-next .dark\:3xl\:bg-blue-500:where(.theme-dark, .theme-dark *) ,.custom-dialog .dark\:3xl\:bg-blue-500:where(.theme-dark, .theme-dark *), .custom-select .dark\:3xl\:bg-blue-500:where(.theme-dark, .theme-dark *), .dark\:3xl\:bg-blue-500:where(.theme-dark, .theme-dark *):where(.custom-dialog,.custom-select) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+  }
 }

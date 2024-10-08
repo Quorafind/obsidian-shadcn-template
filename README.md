@@ -1,27 +1,33 @@
-# obsidian-react-starter
+# obsidian-shadcn-template
 
-Code From Original Template: [React Starter](https://github.com/obsidian-community/obsidian-react-starter)
-
-A starter template for creating an [Obsidian](https://obsidian.md/) plugin with [ReactJS](https://reactjs.org/).
+A super starter template for building Obsidian plugins with shadcn/ui.
 
 ## Features
 
-This project comes preconfigured with [Typescript](https://www.typescriptlang.org/), [Vite](https://vitejs.dev/) And [Less](https://lesscss.org/).
+- Use container query to make view more responsive;
+- No more influence from global styles;
+- Won't influence other plugins;
+- Support shadcn/ui;
+- Support dark mode;
 
-## Getting Started
+## Installation
 
-Click "use this template" to create your own fork of this repo. Make sure to reference [the official sample plugin](https://github.com/obsidianmd/obsidian-sample-plugin) for information about how to get started with the Obsidian API and how to submit your plugin to the Community Plugin Gallery.
+- Use the "Use this template" button to create a new repository.
+- Clone the repository to your local machine.
+- Run `pnpm install` to install the dependencies.
+- Run `pnpm dlx shadcn@latest add ...` to add components;
 
-```bash
-# for local development
-yarn install
-yarn dev
+## Usage
 
-# for a production bundle
-yarn install
-yarn build
-```
+- **Replace all `custom-` with your custom prefix**;
+  - e.g. `custom-next` in `view.tsx`, `postcss.config.mjs` and also `tailwind.config.ts`;
+- Update manifest.json with your plugin information;
+- Run `pnpm dev` to start the development server.
+  - You can look into vite.config.ts to see the plugin configuration.
 
-## Stats
+## Best Practices
 
-The production output of this sample plugin is **~50 KB**.
+- You need to add custom class to the components you want to use, so that you can use both `tailwindcss-scoped-preflight` and also postcss to generate scoped class;
+
+
+

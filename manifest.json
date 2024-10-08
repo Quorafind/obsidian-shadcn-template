@@ -1,7 +1,7 @@
 {
-  "id": "another-react-starter",
-  "name": "Another React Starter",
-  "description": "Obsidian + ReactJS + Less + Vite + Prettier",
+  "id": "shadcn-template",
+  "name": "Shadcn Template",
+  "description": "Obsidian + Shadcn + Vite",
   "version": "0.0.0",
   "author": "Boninall",
   "authorUrl": "https://github.com/Quorafind/",

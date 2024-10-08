@@ -5,10 +5,11 @@ A super starter template for building Obsidian plugins with shadcn/ui.
 ## Features
 
 - Use container query to make view more responsive;
-- No more influence from global styles;
-- Won't influence other plugins;
 - Support shadcn/ui;
+  - No more influence from global styles;
+  - Won't influence other plugins;
 - Support dark mode;
+- Support translation;
 
 ## Installation
 
